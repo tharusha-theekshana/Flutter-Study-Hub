@@ -1,5 +1,5 @@
-import 'package:flutter_study_hub/features/testing/sections/integration_testing/models/post.dart';
-import 'package:flutter_study_hub/features/testing/sections/integration_testing/services/post_service.dart';
+import 'package:flutter_study_hub/features/testing/sections/api_testing/models/post.dart';
+import 'package:flutter_study_hub/features/testing/sections/api_testing/services/post_service.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:http/http.dart' as http;
 import 'package:mockito/annotations.dart';

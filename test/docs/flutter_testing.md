@@ -4,7 +4,8 @@ This section covers testing in Flutter to ensure application quality, reliabilit
 
 Topics Covered:
 * Unit Test
-* Integration Test (API test)
+* API Ting
+* Firebase Test
 
 
 ## Unit Test
@@ -14,15 +15,16 @@ In Flutter, unit tests help verify that the code produces the expected results a
 
 This section covers the basics of unit testing, including writing simple tests, checking expected results using **expect()**, and running tests using the **flutter_test** package.
 
-## Integration Test
-**API Testing -** API testing checks whether application communicates with a backend correctly. You send an HTTP request and verify the response, status code, returned data, and error handling.
-
-**Integration Testing -**  Integration testing checks whether multiple parts of application work together correctly.
+## API Test
+API testing checks whether application communicates with a backend correctly. You send an HTTP request and verify the response, status code, returned data, and error handling.
 
 **What is mocking?**
+
 Mocking means replacing a real dependency with a controlled fake version during testing.
 
-Packages for integrating testing -
+Packages for API testing -
 * **http -** Sends HTTP requests.
 * **mocktail -** Mocking library. It supports creating mock and fake dependencies without generating mock files.
 * **mockito -** Creates mock objects to simulate dependencies, such as repositories, services, or API clients.
+
+## Firebase Test
