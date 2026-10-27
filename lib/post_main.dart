@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'features/testing/sections/integration_testing/views/post_View.dart';
+import 'features/testing/sections/api_testing/views/post_view.dart';
 
 void main() {
   runApp(const MyApp());

@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_study_hub/features/testing/sections/integration_testing/services/post_service.dart';
 import 'package:http/http.dart' as http;
 
 import '../models/post.dart';
+import '../services/post_service.dart';
 import '../widgets/post_list.dart';
 
 class PostView extends StatefulWidget {
@@ -14,7 +14,7 @@ class PostView extends StatefulWidget {
 
 class _PostViewState extends State<PostView> {
   late Future<List<Post>> _posts;
-  final PostService _apiService =PostService(
+  final PostService _apiService = PostService(
     http.Client(),
   );
 
