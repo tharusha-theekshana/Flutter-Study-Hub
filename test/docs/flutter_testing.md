@@ -6,6 +6,7 @@ Topics Covered:
 * Unit Test
 * API Ting
 * Firebase Test
+* Widget Test
 
 
 ## Unit Test
@@ -32,3 +33,22 @@ Firebase testing focuses on verifying the functionality and reliability of Fireb
 
 Packages for Firebase testing -
 * **fake_cloud_firestore –** Simulates Cloud Firestore operations during tests.
+
+## Widget Test
+Flutter widget testing is a crucial aspect of ensuring that individual components of a Flutter application function as expected.
+
+It allows developers to verify the behavior and appearance of UI elements in isolation, simulating user interactions to ensure the app behaves correctly under various scenarios.
+
+**Importance of Widget testing -** 
+* **Quality Assurance -** Automated widget tests help catch bugs early in the development process.
+* **Regression Prevention -** As feature are added ir modified, widget tests ensure existing functionality remains intact.
+* **Faster Development -** 
+
+**Key Components -**
+**WidgetTester -** This class allows to build and interact with widgets during tests.
+testWidgets() - A function that defines a 
+
+**Example Scenarios for Widget Testing -**
+* Rendering Widgets - 
+* User Interactions - 
+* State Changes -
