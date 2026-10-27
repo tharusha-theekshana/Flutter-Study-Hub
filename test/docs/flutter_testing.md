@@ -28,3 +28,7 @@ Packages for API testing -
 * **mockito -** Creates mock objects to simulate dependencies, such as repositories, services, or API clients.
 
 ## Firebase Test
+Firebase testing focuses on verifying the functionality and reliability of Firebase services integrated into a Flutter application. It helps ensure that data is stored, retrieved, updated, and deleted correctly while handling errors and security restrictions.
+
+Packages for Firebase testing -
+* **fake_cloud_firestore –** Simulates Cloud Firestore operations during tests.
